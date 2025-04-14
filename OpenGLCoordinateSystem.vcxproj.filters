@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="package\CoordinateSystem\Application.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_demo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_draw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\imgui\imgui_impl_glfw_gl3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\stb_image\stb_image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="package\Camera\CameraApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="package\lighting\Color\ColorApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="package\lighting\BasicLighting\BasicLightingApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="package\lighting\Material\MaterialApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="package\lighting\LightingMap\LightingMapApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="package\lighting\LightingCasters\LightingCastersApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="package\lighting\MultipleLights\MultipleLights.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="package\ModelLoading\Assimp\AssimpApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="package\ModelLoading\Mesh\mesh.h">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="package\AdvancedOpengl\DepthTesting\DepthTestApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="package\AdvancedOpengl\StencilTesting\StencilTestingApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="package\AdvancedOpengl\FrameBuffers\FrameBufferApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="package\AdvancedOpengl\CubeMaps\CubeMapsApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="package\AdvancedOpengl\AntiAliasing\AntiAliasingApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="package\AdvancedLighting\GammaCorrection\GammaCorrectionApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="package\AdvancedLighting\HDR\HDRApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\shader\shader_m.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\stb_image\stb_image_write.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="package\AdvancedLighting\NormalTexture\NormalTextureApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="package\PBR\IBL\IBLApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="package\PBR\Lighting\LightingApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="package\PBR\Theory\TheoryApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="vendor\imgui\imconfig.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui_impl_glfw_gl3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\imgui_internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\stb_rect_pack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\stb_textedit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\imgui\stb_truetype.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\shader\shader_m.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\stb_image\stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="package\GLError.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="package\Camera.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="package\ModelLoading\Model\model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\stb_image\stb_image_write.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shader\6_3_coordinate_systems_fs.shader" />
+    <None Include="res\shader\6_3_coordinate_systems_vs.shader" />
+    <None Include="res\shader\Basic.shader" />
+    <None Include="res\shader\Camera\Camera_fs.shader" />
+    <None Include="res\shader\Camera\Camera_vs.shader" />
+    <None Include="res\shader\Lighting\Color\Color_fs.shader" />
+    <None Include="res\shader\Lighting\Color\Color_vs.shader" />
+    <None Include="res\shader\Lighting\Color\Colorlight_fs.shader" />
+    <None Include="res\shader\Lighting\Color\ColorLight_vs.shader" />
+    <None Include="res\shader\Lighting\BasicLighting\Color_fs.shader" />
+    <None Include="res\shader\Lighting\BasicLighting\Color_vs.shader" />
+    <None Include="res\shader\Lighting\BasicLighting\Colorlight_fs.shader" />
+    <None Include="res\shader\Lighting\BasicLighting\ColorLight_vs.shader" />
+    <None Include="res\shader\Lighting\Material\Material_fs.shader" />
+    <None Include="res\shader\Lighting\Material\Material_vs.shader" />
+    <None Include="res\shader\Lighting\Material\light_cube_vs.shader" />
+    <None Include="res\shader\Lighting\Material\light_cube_fs.shader" />
+    <None Include="res\shader\Lighting\LightingMap\light_cube_fs.shader" />
+    <None Include="res\shader\Lighting\LightingMap\light_cube_vs.shader" />
+    <None Include="res\shader\Lighting\LightingMap\lighting_maps_fs.shader" />
+    <None Include="res\shader\Lighting\LightingMap\lighting_maps_vs.shader" />
+    <None Include="res\shader\Lighting\LightingCasters\light_cube_fs.shader" />
+    <None Include="res\shader\Lighting\LightingCasters\light_cube_vs.shader" />
+    <None Include="res\shader\Lighting\LightingCasters\light_casters_fs.shader" />
+    <None Include="res\shader\Lighting\LightingCasters\light_casters_vs.shader" />
+    <None Include="res\shader\Lighting\MultipleLights\multiple_lights_fs.shader" />
+    <None Include="res\shader\Lighting\MultipleLights\multiple_lights_vs.shader" />
+    <None Include="res\shader\Lighting\MultipleLights\light_cube_fs.shader" />
+    <None Include="res\shader\Lighting\MultipleLights\light_cube_vs.shader" />
+    <None Include="res\shader\ModelLoading\Model\model_loading_fs.shader" />
+    <None Include="res\shader\ModelLoading\Model\model_loading_vs.shader" />
+    <None Include="res\shader\AdvancedOpengl\Depth\depth_model_loading_fs.shader" />
+    <None Include="res\shader\AdvancedOpengl\Depth\depth_model_loading_vs.shader" />
+    <None Include="res\shader\AdvancedOpengl\StencilTesting\stencil_testing_vs.shader" />
+    <None Include="res\shader\AdvancedOpengl\StencilTesting\stencil_testing_fs.shader" />
+    <None Include="res\shader\AdvancedOpengl\StencilTesting\stencil_single_color_fs.shader" />
+    <None Include="res\shader\AdvancedOpengl\FrameBuffers\framebuffers_fs.shader" />
+    <None Include="res\shader\AdvancedOpengl\FrameBuffers\framebuffers_vs.shader" />
+    <None Include="res\shader\AdvancedOpengl\FrameBuffers\framebuffers_screen_vs.shader" />
+    <None Include="res\shader\AdvancedOpengl\FrameBuffers\framebuffers_screen_fs.shader" />
+    <None Include="res\shader\AdvancedOpengl\CubeMaps\cubemaps_fs.shader" />
+    <None Include="res\shader\AdvancedOpengl\CubeMaps\cubemaps_vs.shader" />
+    <None Include="res\shader\AdvancedOpengl\CubeMaps\skybox_fs.shader" />
+    <None Include="res\shader\AdvancedOpengl\CubeMaps\skybox_vs.shader" />
+    <None Include="res\shader\AdvancedOpengl\AntiAliasing\anti_aliasing_fs.shader" />
+    <None Include="res\shader\AdvancedOpengl\AntiAliasing\anti_aliasing_vs.shader" />
+    <None Include="res\shader\AdvancedOpengl\AntiAliasing\aa_post_fs.shader" />
+    <None Include="res\shader\AdvancedOpengl\AntiAliasing\aa_post_vs.shader" />
+    <None Include="res\shader\AdvancedLighting\GammaCorrection\GammaCorrection_fs.shader" />
+    <None Include="res\shader\AdvancedLighting\GammaCorrection\GammaCorrection_vs.shader" />
+    <None Include="res\shader\AdvancedLighting\HDR\hdr_fs.shader" />
+    <None Include="res\shader\AdvancedLighting\HDR\hdr_vs.shader" />
+    <None Include="res\shader\AdvancedLighting\HDR\lighting_fs.shader" />
+    <None Include="res\shader\AdvancedLighting\HDR\lighting_vs.shader" />
+    <None Include="res\shader\AdvancedLighting\NormalTexture\normal_mapping_vs.shader" />
+    <None Include="res\shader\AdvancedLighting\NormalTexture\normal_mapping_fs.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\texture\ai.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\ai2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\ai3.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\原神.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\haimian.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\animal.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\container2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\container2_specular.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\container.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\skybox\back.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\skybox\bottom.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\skybox\front.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\skybox\left.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\skybox\right.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\skybox\top.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\brickwall_normal.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\brickwall.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\wood.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\awesomeface.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\background.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\block.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\block_solid.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\bricks2.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\bricks2_disp.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\bricks2_normal.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\marble.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\matrix.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\metal.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\paddle.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\particle.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\powerup_chaos.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\powerup_confuse.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\powerup_increase.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\powerup_passthrough.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\powerup_speed.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\powerup_sticky.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\toy_box_diffuse.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\toy_box_disp.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\toy_box_normal.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\window.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\concreteTexture.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\container2_specular_colored.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\texture\grass.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
